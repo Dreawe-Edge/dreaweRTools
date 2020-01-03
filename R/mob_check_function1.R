@@ -15,7 +15,7 @@
 #' @return dataframe with valid mobile numbers
 #' @export
 #' @examples
-#' mob_check()
+#' mob_check1()
 
 mob_check1 <- function(data,var = "CUSTOMER_MOBILE",replace=FALSE,stopNumbers = c(9999999999,9999999990,9999999993)){
   if(var %in% colnames(data)){

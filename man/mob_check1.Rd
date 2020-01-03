@@ -32,5 +32,5 @@ verified:
 3) It should not cantain any alpha characters
 }
 \examples{
-mob_check()
+mob_check1()
 }
